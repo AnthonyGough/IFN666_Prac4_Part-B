@@ -5,7 +5,7 @@ Node modules has been removed - execute ```npm install``` to add folder back int
 
 
 ## Covers
-- Component Creation
+- Reusable Component Creation
 - Separation of concerns with components and api calls
 - Introduction to Hooks in React
 - Covers dotenv package - Hiding secrets such as API Keys/URL's
