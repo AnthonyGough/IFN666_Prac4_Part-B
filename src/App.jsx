@@ -30,10 +30,12 @@ function App() {
       <button onClick={() => {
         fetchUser(counter).then(data => {
           setData(data);
-            setCounter((oldCount=> oldCount+1));                    
+          counter === 11 ? setCounter((oldCount => oldCount % 10 )) : 
+            setCounter((oldCount=> oldCount+1));  
+
         })
       }}>Get User</button>
-      <User {...data} id={counter -1} />
+      <User {...data} id={counter-1} />
     
     </div>
     </>
