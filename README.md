@@ -1,16 +1,18 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This respoitory is a demonstration of the Fetch API. This provides a JavaScript interface for making HTTP requests and processing the responses.
+Node modules has been removed - execute ```npm install``` to add folder back into solution
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Covers
+- Component Creation
+- Separation of concerns with components and api calls
+- Introduction to Hooks in React
+- Covers dotenv package - Hiding secrets such as API Keys/URL's
 
-## React Compiler
+## Challenge
+***Change the code in main branch so the query id is always in the domain of 1 to 10.***\
+***There is only 10 users in this API so the button press when id=10 should return to 1***\
+***Solution in "challenge" branch***
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
